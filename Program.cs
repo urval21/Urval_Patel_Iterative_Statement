@@ -9,6 +9,7 @@ namespace Urval_Patel_Iterative_Statement
             Console.WriteLine("Enter an integer value between 2 and 10:");
             
             int i = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
             int j;
 
             if (i%2==0)
@@ -16,7 +17,8 @@ namespace Urval_Patel_Iterative_Statement
                 i++;
                 for (j = 0; j < i; j++)
                 {
-                    Console.WriteLine("You entered an even number");
+                    
+                    Console.WriteLine(j + 1 + ". You entered an even number") ;
                 }
             }
 
@@ -27,7 +29,7 @@ namespace Urval_Patel_Iterative_Statement
                 for (j = 0; j < i; j++)
 
                 {
-                    Console.WriteLine("You entered an odd number");
+                    Console.WriteLine(j + 1 + ". You entered an odd number");
                 }
                 
             }           
